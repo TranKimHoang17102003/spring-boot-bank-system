@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: dev
+
+app:
+  jwt-secret: 67566B5970337336763979244226452948404D6351655468576D5A7134743777
+  jwt-expiration-milliseconds: 604800000
