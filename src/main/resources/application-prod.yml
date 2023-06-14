@@ -7,9 +7,11 @@ spring:
     initialization-mode: always
   jpa:
     hibernate:
-      dll-auto: create-drop
+      dll-auto: update
     show-sql: true
     generate-ddl: true
     properties:
       hibernate:
         format_sql: true
+
+

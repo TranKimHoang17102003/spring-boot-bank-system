@@ -9,13 +9,13 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123
       POSTGRES_DB: atm
-  app:
+  atm-app:
     build:
       context: .
       dockerfile: Dockerfile
     restart: always
     ports:
-      - 8080:8080
+      - 81:8080
     depends_on:
       - db
     environment:

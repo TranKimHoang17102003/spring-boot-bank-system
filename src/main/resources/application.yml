@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: prod
 
 app:
   jwt-secret: 67566B5970337336763979244226452948404D6351655468576D5A7134743777
