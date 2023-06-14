@@ -1,4 +1,4 @@
-# springboot-blog-rest-api
+# springboot-atm-rest-api
 Learn how to build real-time REST APIs with Spring Boot by building a complete Blog App.
 
 # Source code of Popular Building Real-Time REST APIs with Spring Boot Course
